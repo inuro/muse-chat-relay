@@ -1,0 +1,5 @@
+name: "relay"
+title: "Relay (hand work over to a dedicated side chat)"
+description: "Move work in progress to a dedicated side chat with a self-contained handover note, so work can continue there, separate from the original chat. Also handles add-on relay: passing a new request to a side chat that already owns the work, as a diff rather than a migration."
+category: "Work and knowledge"
+include_in_prompt: true
