@@ -18,6 +18,16 @@ This skill codifies the handover procedure so nothing gets lost in the move:
 
 It also defines **add-on relay**: when a side chat already owns the work, pass a new request or diagnosis as a short diff instead — no new chat, no full handover, no stopping the original chat, and no widening of what the user approved.
 
+## In action
+
+Work in the main chat — fact-checking for a magazine article — has grown long, with research results piling up. The user types `/relay`, and Muse moves the work to a dedicated side chat with a handover note, then reads it back to verify the full note arrived.
+
+![Research results accumulating in the main chat](images/relay-1-en.jpg)
+
+![The user types /relay, and the work moves to a dedicated side chat](images/relay-2-en.jpg)
+
+The English screenshots above are recreations of the original Japanese screenshots (see the Japanese README for the originals). The HTML sources used to render them are in `tools/`.
+
 ## Requirements
 
 - Muse, with side chats available.
