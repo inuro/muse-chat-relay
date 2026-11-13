@@ -10,6 +10,15 @@ Move work in progress from the current chat to a dedicated side chat. The receiv
 - The user asks to pass a new request to a side chat that already owns the work (see "Add-on relay to an existing chat" below).
 - A topic has grown long enough that a dedicated thread would help, you propose the move, and the user agrees.
 
+## Proactive suggestion by Muse (operating policy)
+
+Even without an explicit instruction from the user, Muse may propose a relay on its own initiative when it judges that one topic in the main chat has grown long.
+
+- **When to propose**: Only when all three hold: (1) one topic has accumulated many exchanges and grown long, (2) the work is likely to continue, and (3) it is ongoing work that suits a dedicated thread. One-off questions and topics that are about to wrap up are out of scope.
+- **How to propose**: Briefly, once, at a natural break in the conversation: "This topic has grown long, so I suggest relaying it to a dedicated side chat." Do not interrupt the flow of work.
+- **Limits**: At most one proposal per topic. If the user declines, do not propose again for the same topic.
+- **Execution only after approval**: A proposal is only a proposal. Carry out the move only after the user approves, and then follow the normal procedure (verify state from primary sources, a self-contained handover note, fresh creation, and read-back verification).
+
 ## Procedure
 
 ### 1. Scope the unit of work
