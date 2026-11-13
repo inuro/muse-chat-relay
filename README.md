@@ -1,4 +1,4 @@
-# muse-chat-relay
+# Muse-chat-relay
 
 A [Muse](https://muse.ai) skill for handing work in progress over to a dedicated side chat, with a self-contained handover note.
 

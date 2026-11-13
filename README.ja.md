@@ -1,4 +1,4 @@
-# muse-chat-relay
+# Muse-chat-relay
 
 進行中の作業を、自己完結した引き継ぎ文つきで専用のサイドチャットへ引き継ぐための [Muse](https://muse.ai) 用スキルです。
 
