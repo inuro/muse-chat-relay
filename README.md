@@ -25,7 +25,17 @@ It also defines **add-on relay**: when a side chat already owns the work, pass a
 
 ## Installation
 
-Copy this repository's `SKILL.md` and `skill.yaml` into a folder named `relay` in your Muse custom skills directory:
+### Recommended: ask your Muse
+
+Just tell your Muse:
+
+> Install the relay skill from https://github.com/inuro/muse-chat-relay
+
+Your Muse will read this repository and place `SKILL.md` and `skill.yaml` into a folder named `relay` in your custom skills directory (`~/workspace/custom-skills/relay/`). This is the natural way to install a skill in Muse — no terminal required.
+
+### Deterministic installation
+
+If you prefer to install it deterministically yourself, clone the repository directly into the custom skills directory:
 
 ```sh
 git clone https://github.com/inuro/muse-chat-relay.git ~/workspace/custom-skills/relay

@@ -25,7 +25,17 @@ Muse のサイドチャットは、会話履歴ゼロで始まります。ユー
 
 ## 導入
 
-このリポジトリの `SKILL.md` と `skill.yaml` を、Muse のカスタムスキル置き場に `relay` という名前のフォルダを作って入れます：
+### 推奨：Muse に頼む
+
+自分の Muse に、こう頼むだけです：
+
+> https://github.com/inuro/muse-chat-relay の relay スキルを導入して
+
+Muse がこのリポジトリを読み、`SKILL.md` と `skill.yaml` をカスタムスキル置き場の `relay` フォルダ（`~/workspace/custom-skills/relay/`）へ入れてくれます。Muse ではこれが自然な導入方法で、ターミナルは不要です。
+
+### 決定論的に導入したい場合
+
+自分で確定的に入れたい場合は、リポジトリをカスタムスキル置き場へ直接 clone します：
 
 ```sh
 git clone https://github.com/inuro/muse-chat-relay.git ~/workspace/custom-skills/relay
